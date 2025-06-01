@@ -1,0 +1,83 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding: 150px 80px;
+}
+header h1 {
+    width: 50%;
+    text-align: center;
+    font-size: 32px;
+}
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+header ul li {
+    list-style: none;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+main img {
+    width: 100%;
+}
+
+#about {
+    width: 80%;
+    margin: 0 auto;
+}
+#about h2 {
+text-align: center;
+padding: 60px;
+margin: 0 auto;
+}
+
+#about p {
+    padding: 16px;
+    width: 60%;
+   margin: 0 auto;
+}
+#Work {
+    width: 80%;
+    /* margin: 0 auto; */
+}
+.work-img {
+    /* margin: 0 auto; */
+    width: 80%;
+    /* height: 150px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+#News {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    padding: 16px;
+}
+#News h2 {
+    padding: 32px;
+}
+#News p {
+    border-bottom: 1px solid rgb(195, 193, 193);
+    padding: 16px;
+    font-size: 14px;
+}
+#Contact {
+    text-align: center;
+}
+#Contact h2 {
+    padding: 50px;
+}
+.form p {
+    display: flex;
+}
